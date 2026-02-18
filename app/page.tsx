@@ -10,6 +10,7 @@ interface CommunityCard {
   color: string;
   icon: string;
   features: string[];
+  link: string;
 }
 
 const communities: CommunityCard[] = [
@@ -21,6 +22,7 @@ const communities: CommunityCard[] = [
     color: 'from-green-400 to-emerald-600',
     icon: '🌍',
     features: ['Edukasi Program Daur Ulang', 'Aksi Sosial', 'Edukasi Sampah'],
+    link: 'https://astraloka.my.id',
   },
   {
     id: 'baricode',
@@ -29,7 +31,8 @@ const communities: CommunityCard[] = [
     description: 'Belajar teknologi secara mandiri dan kolaboratif, membangun proyek nyata, saling berbagi pengetahuan dan pengalaman.',
     color: 'from-blue-400 to-indigo-600',
     icon: '💻',
-    features: ['Pembelajaran Mandiri', 'Proyek Kolaboratif', 'Workshop Teknis', 'Networking Developer'],
+    link: 'https://baricode.org',
+    features: ['Pembelajaran Mandiri', 'Proyek Kolaboratif', 'Networking Developer'],
   },
   {
     id: 'self-reminder',
@@ -38,6 +41,7 @@ const communities: CommunityCard[] = [
     description: 'Aplikasi pengingat spiritual yang membantu Anda tetap terhubung dengan nilai-nilai rohani dan self-improvement setiap hari.',
     color: 'from-purple-400 to-pink-600',
     icon: '📿',
+    link: 'https://selfreminder.org',
     features: ['Reminder Spiritual', 'Self-Reflection', 'Daily Insights', 'Progress Tracking'],
   },
 ];
@@ -128,9 +132,14 @@ export default function Home() {
                       </div>
                     ))}
                   </div>
-                  <button className="w-full bg-white text-slate-900 font-semibold py-2 rounded-lg hover:bg-opacity-90 transition">
+                  <a
+                    href={community.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="w-full bg-white text-slate-900 font-semibold py-2 rounded-lg hover:bg-opacity-90 transition block text-center"
+                  >
                     Selengkapnya →
-                  </button>
+                  </a>
                 </div>
               </div>
             ))}
