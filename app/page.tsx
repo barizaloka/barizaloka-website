@@ -68,12 +68,12 @@ export default function Home() {
       }`}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
-            <div className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+            <div className="text-2xl font-bold bg-gradient-to-r from-green-700 to-emerald-600 bg-clip-text text-transparent">
               Barizaloka
             </div>
             <div className="hidden md:flex gap-8">
-              <a href="#communities" className="text-slate-700 dark:text-slate-300 hover:text-blue-600 transition">Komunitas</a>
-              <a href="#about" className="text-slate-700 dark:text-slate-300 hover:text-blue-600 transition">Tentang</a>
+              <a href="#communities" className="text-slate-700 dark:text-slate-300 hover:text-green-700 transition">Komunitas</a>
+              <a href="#about" className="text-slate-700 dark:text-slate-300 hover:text-green-700 transition">Tentang</a>
             </div>
           </div>
         </div>
@@ -82,15 +82,15 @@ export default function Home() {
       {/* Hero Section */}
       <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto text-center">
-          <div className="inline-block mb-4 px-4 py-2 bg-blue-100 dark:bg-blue-900/30 rounded-full">
-            <span className="text-sm font-semibold text-blue-600 dark:text-blue-400">
+          <div className="inline-block mb-4 px-4 py-2 bg-green-100 dark:bg-green-900/30 rounded-full">
+            <span className="text-sm font-semibold text-green-700 dark:text-green-400">
               Platform Komunitas Solusi
             </span>
           </div>
           <h1 className="text-5xl md:text-6xl font-bold text-slate-900 dark:text-white mb-6 leading-tight">
             Menghubungkan Komunitas,
             <br />
-            <span className="bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-green-700 via-emerald-600 to-green-500 bg-clip-text text-transparent">
               Membangun Solusi
             </span>
           </h1>
@@ -164,7 +164,7 @@ export default function Home() {
                 { title: 'Berdampak', desc: 'Fokus pada perubahan positif dan keberlanjutan' },
               ].map((item, idx) => (
                 <div key={idx} className="flex gap-4">
-                  <div className="w-12 h-12 bg-gradient-to-br from-blue-600 to-purple-600 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <div className="w-12 h-12 bg-gradient-to-br from-green-700 to-emerald-600 rounded-lg flex items-center justify-center flex-shrink-0">
                     <span className="text-white font-bold text-lg">{idx + 1}</span>
                   </div>
                   <div>
@@ -177,7 +177,7 @@ export default function Home() {
               ))}
             </div>
 
-            <div className="bg-gradient-to-br from-blue-500/10 to-purple-500/10 dark:from-blue-500/20 dark:to-purple-500/20 rounded-2xl p-8 border border-blue-200 dark:border-blue-900">
+            <div className="bg-gradient-to-br from-green-500/10 to-emerald-500/10 dark:from-green-500/20 dark:to-emerald-500/20 rounded-2xl p-8 border border-green-200 dark:border-green-900">
               <div className="space-y-4">
                 <p className="text-slate-700 dark:text-slate-300 leading-relaxed">
                   Barizaloka lahir dari visi untuk menciptakan ekosistem di mana teknologi, kepedulian lingkungan, dan nilai-nilai spiritual bertemu dalam harmoni.
