@@ -38,7 +38,7 @@ const communities: CommunityCard[] = [
     id: 'self-reminder',
     name: 'Self Reminder',
     title: 'Pengingat Diri Menuju Akhirat',
-    description: 'Aplikasi pengingat spiritual yang membantu Anda tetap terhubung dengan nilai-nilai rohani dan self-improvement setiap hari.',
+    description: 'Komunitas pengingat spiritual yang membantu Anda tetap terhubung dengan nilai-nilai rohani dan self-improvement setiap hari.',
     color: 'from-purple-400 to-pink-600',
     icon: '📿',
     link: 'https://selfreminder.org',
